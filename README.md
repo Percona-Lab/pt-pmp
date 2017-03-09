@@ -22,7 +22,7 @@ with eu-stack
 
 =  possibility to filter out stack traces only for specific tids
 
-New option: -t tid[,<tid>,<tid>,...]
+New option: -t tid[,tid,tid,...]
 
 
 
