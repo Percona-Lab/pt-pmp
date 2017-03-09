@@ -10,7 +10,7 @@ integrated into main pt-pmp tool(https://github.com/percona/percona-toolkit)
 
 = support of the several tools that produces stack traces:
 
-New option: -d <default:gdb|eu|pteu|qs>
+New option: -d gdb|eu|pteu|qs
 
 GDB                   -> pt-pmp -d gdb 
 eu-stack(elfutils)    -> pt-pmp -d eu
@@ -22,7 +22,7 @@ with eu-stack
 
 =  possibility to filter out stack traces only for specific tids
 
-New option: -t <tid>[,<tid>,<tid>,...]
+New option: -t tid[,<tid>,<tid>,...]
 
 
 
