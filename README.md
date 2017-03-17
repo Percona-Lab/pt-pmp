@@ -9,20 +9,19 @@ This version of pt-pmp has a several enchantments that for the moment are not
 integrated into main pt-pmp tool(https://github.com/percona/percona-toolkit)
 
 = support of the several tools that produces stack traces:
-
+<pre>
 New option: -d gdb|eu|pteu|qs
 
 GDB                   -> pt-pmp -d gdb 
 eu-stack(elfutils)    -> pt-pmp -d eu
 pt-eustack-resolver   -> pt-pmp -d pteu
 quickstack            -> pt-pmp -d qs
-
-pt-eustack-resolver - tool for offline symbol resoving of traces obtained
-with eu-stack
+</pre>
+pt-eustack-resolver - tool for offline symbol resoving of traces obtained with eu-stack
 
 =  possibility to filter out stack traces only for specific tids
-
+<pre>
 New option: -t tid[,tid,tid,...]
-
+</pre>
 
 
